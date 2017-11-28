@@ -1,0 +1,8 @@
+notebook	5	emre özer	0245 656 66 66
+bilgisayar	3	mustafa 	0222 323 22 22
+notebook	11	ahmet kara	0822 546 32 11
+kulaklýk	12	mehmet	0545 426 65 44
+telefon	1	eda	0232 365 46 66
+bilgisayar	1	emre	0544 564 65 66
+bilgisayar	1	emre	0544 564 65 66
+telefon	2	tuðçe boz	0825 422 12 35

@@ -1,0 +1,6 @@
+body {background-color: #333; margin:0 auto; font:12px Roboto}
+#sohbetGenel{width: 650px margin:30px auto;}
+#sohbetIcerik{background-color:#FFF; margin-top:50px; margin-left: 100px; margin-right: 100px; padding:10px; border:3px solid #ddd;}
+#mesajGonder{color: #fff; padding: 10px 0;margin-left: 50px;}
+#mesajGonder h3{float: left; margin-left: 50px; padding-right:10px;font:12px;margin-top: 25px; }
+#mesajGonder textarea{border: 2px solid #ddd; padding: 20px; width: 1020px; resize: none;overflow: auto;}

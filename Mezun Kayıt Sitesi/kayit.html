@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<title>Kayıt Formu</title>
+</head>
+<body>
+<CENTER>
+		<div id="header">
+		<div id="header_inner">
+		<ul class="menu">
+			<li><a href="kayit.html">Anasayfa</a></li>
+			<li><a href="liste.html">Liste</a></li>
+			<li><a href="mesaj/index.php">Mesaj</a></li>
+		</ul> 
+		</div>
+	</div>
+	<br>
+	<br>
+
+
+<form action="kaydet.php" method="post" name="prform">
+<p>
+<input id="text" name="adtext" type="text" value="AD" onblur="if (this.value == '') {this.value = 'AD'; }"
+ onfocus="if (this.value == 'AD') {this.value = '';}" /> 
+</p>
+<p>
+ <input id="text" name="soyadtext" type="text" value="SOYAD" onblur="if (this.value == '') {this.value = 'SOYAD'; }"
+ onfocus="if (this.value == 'SOYAD') {this.value = '';}" />
+</p>
+<p>
+ <input id="text" name="yastext" type="text" value="YAŞ" onblur="if (this.value == '') {this.value = 'YAŞ'; }"
+ onfocus="if (this.value == 'YAŞ') {this.value = '';}" />
+</p>
+<p>
+<input id="text" name="teltext" type="text" value="TELEFON" onblur="if (this.value == '') {this.value = 'TELEFON'; }"
+ onfocus="if (this.value == 'TELEFON') {this.value = '';}" />
+</p>
+<input id="text" name="adrestext" type="text" value="ADRES" onblur="if (this.value == '') {this.value = 'ADRES'; }"
+ onfocus="if (this.value == 'ADRES') {this.value = '';}" />
+<p>
+<input id="text" name="mezuntext" type="text" value="MEZUNİYET YILI" onblur="if (this.value == '') {this.value = 'MEZUNİYET YILI'; }"
+ onfocus="if (this.value == 'MEZUNİYET YILI') {this.value = '';}" />
+</p>
+<p>
+<input id="text" name="istext" type="text" value="İŞ" onblur="if (this.value == '') {this.value = 'İŞ'; }"
+ onfocus="if (this.value == 'İŞ') {this.value = '';}" />
+</p>
+<p>
+<input id="text" name="bolumtext" type="text" value="BÖLÜM" onblur="if (this.value == '') {this.value = 'BÖLÜM'; }"
+ onfocus="if (this.value == 'BÖLÜM') {this.value = '';}" />
+</p>
+<!--<img src="button.png" style="width: 250px; cursor: pointer;">-->
+<input name="button" id="button1" type="submit" value="KAYDET" />
+</form>
+</CENTER>
+</body>
+</html>

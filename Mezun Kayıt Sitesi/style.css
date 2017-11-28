@@ -1,0 +1,102 @@
+body{
+	background-color: #222;
+}
+
+ul.menu{
+	list-style-type: none;
+	padding:20px;
+}
+ul.menu li{
+	float: left;
+	margin-left: 200px;
+
+}
+ul.menu li a{
+		
+	padding-bottom: 20px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-left: 50px;
+	display: block;
+	color:#FFFFFF;
+	font-size: 14pt;
+font-family: 'Roboto',sans-serif;
+	text-align: center;
+	text-decoration: none;
+}
+ul.menu li a:hover{-webkit-transition:0.77777777777s; border-radius: 10px;box-shadow: 12px 13px 0px rgba(204, 211, 51, 0.38),
+-11px -14px 0px rgba(241, 96, 0, 0.28),
+18px -24px 0px rgba(0, 0, 0, 0.34),
+33px -6px 0px rgba(39, 74, 214, 0.28);
+	background-color:#444;}
+
+#button1 {
+	background-color:#27a047;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:5px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	margin-left: 106px;
+font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #2f6627;
+	transition: 400ms all ease;
+}
+#button1:hover {
+	background-color:#222;
+	color: #bbb;
+	transition: 2000ms all ease;
+	outline: none;
+}
+#button1:focus {
+	background-color:#222;
+	color: #bbb;
+	outline: none;
+}
+#button1:active {
+		background-color:#222;
+	color: #bbb;
+	transition: 2000ms all ease;
+	outline: none;
+}
+
+#text
+{
+	outline: none;
+		border-radius:5px;
+	margin-top:3px;
+background: #333;
+color: #ccc;
+width: 200px;
+padding: 6px 18px 6px 35px;
+transition: 400ms all ease;
+border: 1px solid #333;
+font-family: 'Roboto', sans-serif;
+ overflow: scroll;
+
+
+}
+#text:hover
+{
+box-shadow: 12px 13px 0px rgba(204, 211, 51, 0.38),
+-11px -14px 0px rgba(241, 96, 0, 0.28),
+18px -24px 0px rgba(0, 0, 0, 0.34),
+33px -6px 0px rgba(39, 74, 214, 0.28);
+background-color: #444;
+}
+#text:focus
+{
+width:300px;
+transition:500ms all ease;
+padding:3px 32px 3px 3px;
+box-shadow: 2px 3px 0px rgba(204, 211, 51, 0.38),
+-3px -4px 0px rgba(241, 96, 0, 0.28),
+1px -2px 0px rgba(0, 0, 0, 0.34),
+3px -6px 0px rgba(39, 74, 214, 0.28);
+background-color: #222;
+}

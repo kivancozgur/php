@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<title>Kayıt Formu</title>
+</head>
+<body>
+<CENTER>
+		<div id="header">
+		<div id="header_inner">
+		<ul class="menu">
+			<li><a href="kayit.html">Anasayfa</a></li>
+			<li><a href="liste.html">Liste</a></li>
+			<li><a href="mesaj/index.php">Mesaj</a></li>
+		</ul> 
+		</div>
+	</div>
+	<br>
+	<br>
+
+
+<form action="liste.php" method="post" name="prform">
+<p>
+<input id="text" name="bolumtext" type="text" value="BÖLÜM" onblur="if (this.value == '') {this.value = 'BÖLÜM'; }"
+ onfocus="if (this.value == 'BÖLÜM') {this.value = '';}" /> 
+</p>
+<p>
+ <input id="text" name="mezuntext" type="text" value="MEZUNİYET YILI" onblur="if (this.value == '') {this.value = 'MEZUNİYET YILI'; }"
+ onfocus="if (this.value == 'MEZUNİYET YILI') {this.value = '';}" />
+</p>
+<input name="button" id="button1" type="submit" value="ARA" />
+</form>
+</CENTER>
+</body>
+</html>
